@@ -1,0 +1,41 @@
+#shapes {
+	// display: grid;
+	// grid-template-columns: auto 90% auto;
+	// grid-template-areas: ". shapes .";
+	// height: 100vh;
+	> div {
+		// grid-area: shapes;
+
+		#red-box {
+			height: 100px;
+			width: 100px;
+			background-color: rgb(248, 58, 58);
+			border-radius: 15%;
+			margin: 10px 10px;
+		}
+
+		#blue-box {
+			height: 100px;
+			width: 100px;
+			background-color: rgb(14, 144, 219);
+			border-radius: 15%;
+			margin: 10px 10px;
+		}
+
+		#yellow-box {
+			height: 100px;
+			width: 100px;
+			background-color: rgb(252, 181, 30);
+			border-radius: 15%;
+			margin: 10px 10px;
+		}
+
+		#green-box {
+			height: 100px;
+			width: 100px;
+			background-color: rgb(7, 218, 147);
+			border-radius: 15%;
+			margin: 10px 10px;
+		}
+	}
+}
